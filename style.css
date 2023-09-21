@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+.bg-primary {
+    color: #ffcdaa;
+}
+
+#header {
+    color: red;
+}
+
+.text {
+    color: blue !important;
+}
+
+.content {
+    height: 300px;
+}
