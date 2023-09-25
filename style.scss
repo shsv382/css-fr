@@ -1,0 +1,29 @@
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: bisque;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &__image {
+        width: 80%;
+        height: 80px;
+    }
+    &__text {
+        width: 80%;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+    }
+    &__button {
+        position: absolute;
+        bottom: 10px;
+        width: 80%;
+        &_sell {
+            background-color: coral;
+        }
+    }
+}
